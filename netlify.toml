@@ -1,0 +1,5 @@
+[build]
+publish = ".next"
+
+[[plugins]]
+package = "../../frameworks/next-runtime-minimal"
