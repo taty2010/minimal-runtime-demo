@@ -1,3 +1,16 @@
 [build]
 publish = ".next"
 
+[[plugins]]
+package = "@netlify/next-runtime"
+
+[[redirects]]
+from = "/_next/image*"
+query = { url = ":url", w = ":width", q = ":quality" }
+to = "/.netlify/images?url=:url&w=:width&q=:quality"
+status = 200
+
+[[redirects]]
+from = "/static"
+to = "/redirect"
+status = 302
