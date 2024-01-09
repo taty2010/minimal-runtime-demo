@@ -33,7 +33,7 @@ export default function Home() {
           className={styles.logo}
           src="/image.avif"
           alt="Next.js Logo"
-          width={180}
+          width={500}
           height={270}
           priority
         />
