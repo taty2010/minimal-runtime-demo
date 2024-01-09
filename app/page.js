@@ -31,7 +31,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/image.jpg"
+          src="/seahorse.jpg"
           alt="Next.js Logo"
           width={500}
           quality={100}
