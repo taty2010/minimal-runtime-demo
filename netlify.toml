@@ -8,7 +8,7 @@ package = "@netlify/next-runtime"
 from = "/_next/image*"
 query = { url = ":url", w = ":width", q = ":quality" }
 to = "/.netlify/images?url=:url&w=:width&q=:quality"
-status = 300
+status = 200
 
 [[redirects]]
 from = "/static"
