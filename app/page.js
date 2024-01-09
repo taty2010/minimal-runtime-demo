@@ -34,7 +34,6 @@ export default function Home() {
           src="/image.jpg"
           alt="Next.js Logo"
           width={500}
-          height={470}
           quality={100}
           priority
         />
